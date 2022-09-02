@@ -20,6 +20,9 @@
     width: 25px!important;
     height: 25px!important;
 }
+.cursor-pointer{
+    cursor: pointer;
+}
 @media only screen and (max-width: 768px) {
   .card-width {
     width: 100% !important;

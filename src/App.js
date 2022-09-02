@@ -103,15 +103,15 @@ function App() {
               <AiFillEdit
                 className={
                   mode === "dark"
-                    ? "fs-2 text-warning me-2 button-hever-effect"
-                    : "fs-2 text-success me-2 button-hever-effect"
+                    ? "fs-2 text-warning me-2 button-hever-effect cursor-pointer"
+                    : "fs-2 text-success me-2 button-hever-effect cursor-pointer"
                 }
                 onClick={() => setEditContent(true)}
               />
               {editContent ? (
                 <AiFillCloseCircle
                   onClick={() => setEditContent(false)}
-                  className="fs-2 text-dark button-hever-effect"
+                  className="fs-2 text-dark button-hever-effect cursor-pointer"
                 />
               ) : (
                 ""
@@ -180,8 +180,8 @@ function App() {
                             onClick={() => sendNewContent(todo)}
                             className={
                               mode === "dark"
-                                ? "fs-2 text-warning button-hever-effect"
-                                : "fs-2 text-success button-hever-effect"
+                                ? "fs-2 text-warning button-hever-effect cursor-pointer"
+                                : "fs-2 text-success button-hever-effect cursor-pointer"
                             }
                           />
                         ) : (
@@ -191,8 +191,8 @@ function App() {
                           onClick={() => deleteTodo(todo)}
                           className={
                             mode === "dark"
-                              ? "fs-2 text-light button-hever-effect"
-                              : "fs-2 text-danger button-hever-effect"
+                              ? "fs-2 text-light button-hever-effect cursor-pointer"
+                              : "fs-2 text-danger button-hever-effect cursor-pointer"
                           }
                         />
                       </div>
@@ -215,7 +215,7 @@ function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <AiOutlineLink className="fs-1" />
+                  <AiOutlineLink className="fs-1 cursor-pointer" />
                 </a>
                 <a
                   href="https://github.com/halituzan"
@@ -223,7 +223,7 @@ function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <AiFillGithub className="fs-1" />
+                  <AiFillGithub className="fs-1 cursor-pointer" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/halituzan/"
@@ -231,7 +231,7 @@ function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <AiFillLinkedin className="fs-1" />
+                  <AiFillLinkedin className="fs-1 cursor-pointer" />
                 </a>
               </div>
             </Card.Footer>
