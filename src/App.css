@@ -1,38 +1,40 @@
-.App {
+.button-hever-effect:hover {
+  filter: drop-shadow(0 0 2px rgba(2, 2, 2, 0.442));
+}
+.profile {
+  top: 10px !important;
+  right: 10px !important;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.canvas-body {
+  box-shadow: 0px 0px 19px 7px rgba(128, 128, 128, 0.45);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.fixedtop {
+  position: fixed;
+  right: 10px;
+}
+.card-width {
+  width: 70% !important;
+}
+.input-check{
+    width: 25px!important;
+    height: 25px!important;
+}
+@media only screen and (max-width: 768px) {
+  .card-width {
+    width: 100% !important;
+  }
+  .App {
+    width: 100% !important;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 991px) {
+  .card-width {
+    width: 85% !important;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media only screen and (max-width: 1290px) {
+  .card-width {
+    width: 65% !important;
   }
 }
