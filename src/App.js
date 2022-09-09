@@ -74,7 +74,7 @@ function App() {
     }
     todoList();
     console.log(motivation);
-  }, []);
+  }, [mode]);
 
   useEffect(() => {
     todoList();
