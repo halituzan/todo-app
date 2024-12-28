@@ -1,6 +1,6 @@
 const config = {
-  uri: "https://631209a5f5cba498da8b09a5.mockapi.io",
-  endpoint: "/api/v1/todos",
+  uri: "https://676fd18db353db80c323a516.mockapi.io",
+  endpoint: "/api/v1/todos/todos",
 };
 
 export const motivation = `
